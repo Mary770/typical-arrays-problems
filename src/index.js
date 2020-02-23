@@ -1,3 +1,5 @@
+exports.min = function min (array) {
+  if (array === undefined || array.length === 0){
   	return 0;
   }
   var min = array[0];  
